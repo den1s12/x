@@ -29,6 +29,19 @@ namespace x
             int n = Convert.ToInt32(Console.ReadLine());
             int g = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(v * n * g);
+            //Принять с консоли 2 числа и найти большее из них
+            Console.WriteLine("Введите переменные m, h");
+            double m = Convert.ToDouble(Console.ReadLine());
+            double h = Convert.ToDouble(Console.ReadLine());
+            if (m > 0)
+            {
+                Console.WriteLine("{0} Наибольшее число", m);
+            }
+            else
+            {
+                Console.WriteLine("{0} Наибольшее число", h);
+            }
+            Console.ReadLine();
         }
     }
 }

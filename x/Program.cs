@@ -23,7 +23,12 @@ namespace x
             Console.WriteLine(a);
             //Найти остаток от деления 12 на 4 и вывести на консоль
             Console.WriteLine(12 % 4);
-
+            //Принять с консоли 3 числа и перемножить их, результат вывести на консоль
+            Console.WriteLine("Введите переменные v, n, g");
+            int v = Convert.ToInt32(Console.ReadLine());
+            int n = Convert.ToInt32(Console.ReadLine());
+            int g = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(v * n * g);
         }
     }
 }

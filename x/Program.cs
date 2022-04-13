@@ -42,6 +42,19 @@ namespace x
                 Console.WriteLine("{0} Наибольшее число", h);
             }
             Console.ReadLine();
+            //Принять с консоли 2 числа если оба четные то сложить их иначе перемножить, ответ вывести на консоль
+            Console.WriteLine("Введите первое число:");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if (num1 %2== 0 && num2 %2 ==0)
+            {
+                Console.WriteLine(num1+num2);
+            }
+            else
+            {
+                Console.WriteLine(num1*num2);
+            }
         }
     }
 }
